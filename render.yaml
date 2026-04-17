@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: i-learn-academy
-    env: node
+    name: cricket-scorecard
     plan: starter
     buildCommand: npm install
     startCommand: npm start
